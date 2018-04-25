@@ -9,5 +9,5 @@ struct BIT {
 		for(int i=x;i;i-=lowbit(i)) ret += c[x];
 		return ret;
 	}
-}
+};
   
