@@ -21,3 +21,6 @@ inline int LCA(int x,int y) {
 	}
 	return x != y ? fa[x][0] : x;
 }
+
+
+
