@@ -12,7 +12,7 @@ inline LL inv(LL x,LL p)
 }
 inline LL bsgs(LL a,LL b,LL p)
 {
-	a %= p , b %= p;
+	a %= p ,b %= p;
 	map<LL,LL> mp;
 	LL m = ceil(sqrt(p)) , t = 1;
 	for(int i = 0 ; i < m ; i++)
