@@ -2,11 +2,11 @@
 using namespace std;
 #define LL long long
 const LL MXN = 70;
-ll b[MXN], n, ans;
+LL b[MXN], n, ans;
 int main(){
     scanf("%lld", &n);
     for (int i = 1; i <= n; i++){
-        ll u; scanf("%lld", &u);
+        LL u; scanf("%lld", &u);
         for (int j = 60; ~j; j--)
             if (u & (1LL << j)){
                 if (!b[j]) {b[j] = u; break;}
