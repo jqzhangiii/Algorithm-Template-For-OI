@@ -9,9 +9,9 @@ inline void FFT(Cp *A,int f) {
 		for(j=0;j<M;j+=i<<1) {
 			w0.x=1,w0.y=0;
 			for(k=0;k<i;++k) {
-				x=A[j+k];
-				A[j+k]=x+(w0*A[i+j+k]);
-				A[i+j+k]=x-(w0*A[i+j+k]);
+				x=A[j+k],y=A[i+j+k]*w0;
+				A[j+k]=x+y;
+				A[i+j+k]=x-y;
 				w0=w0*w;
 			}
 		}
