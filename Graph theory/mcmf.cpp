@@ -1,3 +1,4 @@
+//https://loj.ac/submission/110695
 #include<bits/stdc++.h>
 using namespace std;
 #define debug(...) fprintf(stderr,__VA_ARGS__)
