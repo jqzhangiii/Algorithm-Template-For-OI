@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-inline void tarjan(int x) {
+inline void tarjan(int x) { 
 	dfn[x] = low[x] = ++dfs_clock; 
 	inq[x] = 1; stk[++top] = x; int v;
 	for(int i = fir[x] ;i ;i = e[i].nxt) {
