@@ -1,5 +1,4 @@
 //https://zh.wikipedia.org/wiki/%E5%8E%9F%E6%A0%B9
-inline fpw(int x,int y,int mod)
 
 inline LL fpw(LL x,LL y,LL Mod) {
 	LL ret=1;
