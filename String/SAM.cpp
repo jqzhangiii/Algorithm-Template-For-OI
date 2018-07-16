@@ -1,4 +1,4 @@
-struct SAM {
+struct SAM { 
  	SAM(){cnt=0;last=rt=++cnt;}
 	inline void extend(int x){
 		p = last; np = last = ++cnt; l[np] = l[p] + 1; sz[np]=1;
