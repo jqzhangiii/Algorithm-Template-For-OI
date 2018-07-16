@@ -16,3 +16,4 @@ struct SAM {
 		}
 	}
 }sam;
+ 
